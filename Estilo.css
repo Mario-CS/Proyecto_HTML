@@ -53,7 +53,7 @@ header {
   color: #03e9f4;
 }
 
-button {
+.button_login {
   margin-left: 20px;
   padding: 9px 25px;
   background-color: rgba(0, 136, 169, 1);
@@ -63,7 +63,7 @@ button {
   transition: all 0.3s ease 0s;
 }
 
-button:hover {
+.button_login:hover {
   background-color: #03e9f4;
 }
 
@@ -142,11 +142,48 @@ button:hover {
   background: #03e9f4;
   color: #fff;
   border-radius: 15px;
-  box-shadow: 0 0 5px #03e9f4, 0 0 25px #03e9f4, 0 0 50px #03e9f4,
-    0 0 100px #03e9f4;
+  box-shadow: 0 0 5px #03e8f45b, 0 0 25px #03e8f45b, 0 0 50px #03e8f45b,
+    0 0 100px #03e8f45b;
 }
 
 .login-box a span {
   position: absolute;
   display: block;
+}
+
+/*---------------------------------- componentes -----------------------------------*/
+
+.product {
+  position: absolute;
+  top: 50%;
+  left: 50%;
+  width: 400px;
+  padding: 40px;
+  transform: translate(-50%, -50%);
+  background: rgb(255, 255, 255);
+  box-sizing: border-box;
+  box-shadow: 0 15px 25px rgba(0, 0, 0, 0.6);
+  border-radius: 10px;
+}
+
+.product .i9 {
+  display: block;
+  margin: auto;
+}
+
+.add {
+  background-color: rgba(0, 136, 169, 1);
+  border: none;
+  border-radius: 10px;
+  cursor: pointer;
+  transition: all 0.3s ease 0s;
+  padding: 5px 12px;
+}
+
+.add:hover {
+  background-color: #03e9f4;
+}
+
+.button {
+  text-align: center;
 }
