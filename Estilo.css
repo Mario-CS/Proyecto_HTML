@@ -153,22 +153,43 @@ header {
 
 /*---------------------------------- componentes -----------------------------------*/
 
-.product {
-  position: absolute;
-  top: 50%;
-  left: 50%;
+.producti9 {
   width: 400px;
-  padding: 40px;
-  transform: translate(-50%, -50%);
-  background: rgb(255, 255, 255);
+  padding: 30px;
+  background: #fff;
   box-sizing: border-box;
   box-shadow: 0 15px 25px rgba(0, 0, 0, 0.6);
   border-radius: 10px;
+  margin-left: 10%;
+  margin-top: 100px;
+  float: left;
 }
 
-.product .i9 {
+.producti9 .i9 {
   display: block;
   margin: auto;
+  height: 200px;
+  width: 200px;
+}
+
+.productRTX {
+  width: 400px;
+  padding: 30px;
+  background: #fff;
+  box-sizing: border-box;
+  box-shadow: 0 15px 25px rgba(0, 0, 0, 0.6);
+  border-radius: 10px;
+  margin-left: 10%;
+  float: left;
+  margin-top: 100px;
+  margin-right: 10%;
+}
+
+.productRTX .RTX {
+  display: block;
+  margin: auto;
+  height: 200px;
+  width: 200px;
 }
 
 .add {
