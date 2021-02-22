@@ -7,7 +7,8 @@ body {
   margin: 0;
   padding: 0;
   font-family: "Montserrat", sans-serif;
-  background: linear-gradient(#101827, #192e46);
+  background: linear-gradient(#101827, #1b3552);
+  background-attachment: fixed;
 }
 
 /*-------------------------- Pagina principal ------------------------------------------*/
@@ -182,10 +183,29 @@ header {
   margin-left: 10%;
   float: left;
   margin-top: 100px;
-  margin-right: 10%;
 }
 
 .productRTX .RTX {
+  display: block;
+  margin: auto;
+  height: 200px;
+  width: 200px;
+}
+
+.productVIII {
+  width: 400px;
+  padding: 30px;
+  background: #fff;
+  box-sizing: border-box;
+  box-shadow: 0 15px 25px rgba(0, 0, 0, 0.6);
+  border-radius: 10px;
+  float: left;
+  margin-top: 100px;
+  margin-right: 10%;
+  margin-left: 10%;
+}
+
+.productVIII .VIII {
   display: block;
   margin: auto;
   height: 200px;
