@@ -228,3 +228,26 @@ header {
 .button {
   text-align: center;
 }
+
+/*---------------------------------- noticias -----------------------------------*/
+
+.todo {
+  width: 40%;
+  height: 1000px;
+  padding: 30px;
+  background: #fff;
+  box-sizing: border-box;
+  box-shadow: 0 15px 25px rgba(0, 0, 0, 0.6);
+  border-radius: 10px;
+  position: absolute;
+  top: 50%;
+  left: 50%;
+  padding: 40px;
+  transform: translate(-50%, -50%);
+}
+
+.iphone {
+  width: 400px;
+  float: right;
+  margin-left: 20px;
+}
