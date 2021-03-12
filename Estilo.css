@@ -232,7 +232,7 @@ header {
 /*---------------------------------- noticias -----------------------------------*/
 
 .todo {
-  width: 40%;
+  width: 800px;
   height: 1000px;
   padding: 30px;
   background: #fff;
@@ -244,10 +244,25 @@ header {
   left: 50%;
   padding: 40px;
   transform: translate(-50%, -50%);
+  margin-top: 25px;
 }
 
 .iphone {
   width: 400px;
   float: right;
   margin-left: 20px;
+}
+
+.whatsapp {
+  width: 300px;
+  float: right;
+  margin-left: 20px;
+  margin-bottom: 20px;
+}
+
+.USB {
+  width: 400px;
+  float: right;
+  margin-left: 20px;
+  margin-top: 15px;
 }
