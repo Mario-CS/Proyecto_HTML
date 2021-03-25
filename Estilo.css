@@ -7,7 +7,7 @@ body {
   margin: 0;
   padding: 0;
   font-family: "Montserrat", sans-serif;
-  background: linear-gradient(#101827, #1b3552);
+  background: linear-gradient(#192438, #1b3552);
   background-attachment: fixed;
 }
 
@@ -77,7 +77,7 @@ header {
   width: 500px;
   padding: 40px;
   transform: translate(-50%, -50%);
-  background: rgba(0, 0, 0, 0.5);
+  background: rgba(0, 0, 0, 0.6);
   box-sizing: border-box;
   box-shadow: 0 15px 25px rgba(0, 0, 0, 0.6);
   border-radius: 10px;
@@ -154,9 +154,10 @@ header {
 
 /*---------------------------------- componentes -----------------------------------*/
 
-.all {
+.all-products {
   display: flex;
-  justify-content: space-between;
+  justify-content: space-around;
+  margin: 50px;
 }
 
 .producti9 {
@@ -166,9 +167,6 @@ header {
   box-sizing: border-box;
   box-shadow: 0 15px 25px rgba(0, 0, 0, 0.6);
   border-radius: 10px;
-  margin-left: 10%;
-  margin-top: 100px;
-  float: left;
 }
 
 .producti9 .i9 {
@@ -185,9 +183,8 @@ header {
   box-sizing: border-box;
   box-shadow: 0 15px 25px rgba(0, 0, 0, 0.6);
   border-radius: 10px;
-  margin-left: 10%;
-  float: left;
-  margin-top: 100px;
+  margin-left: 50px;
+  margin-right: 50px;
 }
 
 .productRTX .RTX {
@@ -204,10 +201,6 @@ header {
   box-sizing: border-box;
   box-shadow: 0 15px 25px rgba(0, 0, 0, 0.6);
   border-radius: 10px;
-  float: left;
-  margin-top: 100px;
-  margin-right: 10%;
-  margin-left: 10%;
 }
 
 .productVIII .VIII {
